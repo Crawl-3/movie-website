@@ -1,0 +1,36 @@
+.latest-movies-wrapper {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.latest-movies-title {
+    font-size: 1.5rem;
+    color: var(--brand-color);
+    margin-bottom: 10px;
+    cursor: default;
+}
+
+.latest-movies {
+    display: flex;
+    gap: 10px;
+}
+
+.latest-movie {
+    width: 200px;
+    background: #222;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.latest-movie-title {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.latest-movie-description {
+    color: #777;
+    margin-left: 15px;
+    white-space: normal;
+}

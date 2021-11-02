@@ -1,0 +1,9 @@
+.app {
+    height: 100%;
+    display: flex;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: auto;
+}

@@ -1,0 +1,28 @@
+@import "_reset.css";
+@import "_fonts.css";
+
+:root {
+    --main-bg-color: #011627;
+    --main-color: #fff;
+    --brand-color: #4c956c;
+    --primary-button-color: #ddbdfc;
+    --border-solid-sp: 1px solid #1e313f;
+    --sidebar-x-margin: 0 20px;
+    --sidebar-link-color: #666666;
+    --sidebar-link-color-hover: #a1a1a1;
+    --sidebar-link-color-active: #ffffff;
+}
+
+html,
+body {
+    background: var(--main-bg-color);
+    color: var(--main-color);
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: var(--brand-color);
+}
