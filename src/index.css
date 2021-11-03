@@ -1,5 +1,6 @@
 @import "_reset.css";
 @import "_fonts.css";
+@import "_scrollbar.css";
 
 :root {
     --main-bg-color: #011627;
@@ -8,9 +9,9 @@
     --primary-button-color: #ddbdfc;
     --border-solid-sp: 1px solid #1e313f;
     --sidebar-x-margin: 0 20px;
-    --sidebar-link-color: #666666;
-    --sidebar-link-color-hover: #a1a1a1;
-    --sidebar-link-color-active: #ffffff;
+    --sidebar-link-color: rgba(255, 255, 255, 0.4);
+    --sidebar-link-color-hover: rgba(255, 255, 255, 0.6);
+    --sidebar-link-color-active: rgba(255, 255, 255);
 }
 
 html,

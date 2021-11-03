@@ -1,0 +1,8 @@
+.footer {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-top: var(--border-solid-sp);
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.4);
+}
