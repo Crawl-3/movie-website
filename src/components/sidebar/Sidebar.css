@@ -1,13 +1,18 @@
 .sidebar {
     width: 250px;
+    display: none;
     flex-shrink: 0;
     border-right: var(--border-solid-sp);
     padding-top: 30px;
 }
 
+.sidebar-enabled {
+    display: block;
+}
+
 .group-name {
     color: var(--brand-color);
-    font-size: 0.82rem;
+    font-size: 0.90rem;
     font-weight: 600;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -19,35 +24,31 @@
     margin: var(--sidebar-x-margin);
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2px;
 }
 
-.links li a {
+.link {
     font-size: 1.1rem;
     color: var(--sidebar-link-color);
-    transition: color 150ms;
-    /* background: #111; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* height: 50px; */
-    /* padding-left: 20px; */
+    transition: all 150ms linear;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: var(--sidebar-link-border-radius);
+    padding-left: 15px;
 }
 
-.links li a:hover {
+.link span {
+    margin-right: 8px;
+}
+
+.link:hover {
     color: var(--sidebar-link-color-hover);
+    background: var(--sidebar-link-bg-hover);
 }
 
-.links li a.active {
+.link.active {
     color: var(--sidebar-link-color-active);
-}
-
-.links li a::after {
-    background: white;
-    width: 10px;
-}
-
-@media only screen and (max-width: 600px) {
-    .sidebar {
-        display: none;
-    }
+    background: var(--sidebar-link-bg-active);
 }

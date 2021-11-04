@@ -5,13 +5,20 @@
 :root {
     --main-bg-color: #011627;
     --main-color: #fff;
-    --brand-color: #4c956c;
+    --brand-color: #59d098;
     --primary-button-color: #ddbdfc;
     --border-solid-sp: 1px solid #1e313f;
-    --sidebar-x-margin: 0 20px;
+    --sidebar-x-margin: 0 10px;
     --sidebar-link-color: rgba(255, 255, 255, 0.4);
-    --sidebar-link-color-hover: rgba(255, 255, 255, 0.6);
+    --sidebar-link-color-hover: rgba(255, 255, 255, 0.7);
     --sidebar-link-color-active: rgba(255, 255, 255);
+    --sidebar-link-bg-hover: rgba(40, 40, 40, 0.6);
+    --sidebar-link-bg-active: rgba(40, 40, 40, 0.8);
+    --sidebar-link-border-radius: 5px;
+    --navbar-main-color: rgba(255, 255, 255, 0.4);
+    --navbar-main-color-hover: rgba(255, 255, 255);
+    --navbar-button-bg-color: rgba(40, 40, 40, 0.5);
+    --navbar-button-bg-color-hover: rgba(40, 40, 40);
 }
 
 html,
@@ -25,5 +32,18 @@ body {
 }
 
 a {
-    color: var(--brand-color);
+    color: inherit;
+}
+
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+box-icon {
+    color: inherit;
+    fill: currentColor;
+    font-size: inherit;
 }

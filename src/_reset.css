@@ -120,7 +120,7 @@ q {
     quotes: none;
 }
 
-blockquoteq::before::after,
+blockquote::before::after,
 q::before::after {
     content: "";
     content: none;
