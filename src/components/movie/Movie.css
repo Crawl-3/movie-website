@@ -1,0 +1,35 @@
+.movie {
+    height: 300px;
+    max-width: 200px;
+    border-radius: 10px;
+    background: var(--movie-card-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 150ms;
+}
+
+.movie:hover {
+    transform: translateY(-7px);
+}
+
+.movie-thumbnail {
+    height: 60%;
+}
+
+.movie-details {
+    flex: 1;
+    overflow: hidden;
+    margin: 0 15px 10px;
+}
+
+.movie-title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
+
+.movie-description {
+    color: var(--movie-card-description-color);
+    white-space: pre-line;
+}

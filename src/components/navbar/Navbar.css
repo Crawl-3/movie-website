@@ -45,7 +45,6 @@
     border-radius: 0 5px 5px 0;
 }
 
-
 .history-buttons button:hover {
     color: var(--navbar-main-color-hover);
     background: var(--navbar-button-bg-color-hover);

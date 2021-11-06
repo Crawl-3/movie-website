@@ -1,6 +1,7 @@
-import { Switch, Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import "./Content.css";
 import HomePage from "../../views/home/Home";
+import MoviesPage from "../../views/movies/Movies";
 import NotFoundPage from "../../views/not-found/NotFound";
 
 function Content() {
@@ -8,7 +9,8 @@ function Content() {
         <div className="content main-scrollbar">
             <Switch>
                 <Route exact path="/" component={HomePage} />
-                <Route path="**" component={NotFoundPage} />
+                <Route path="/movies" component={MoviesPage} />
+                <Route exact path="**" component={NotFoundPage} />
             </Switch>
         </div>
     );

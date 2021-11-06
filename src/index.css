@@ -19,6 +19,8 @@
     --navbar-main-color-hover: rgba(255, 255, 255);
     --navbar-button-bg-color: rgba(40, 40, 40, 0.5);
     --navbar-button-bg-color-hover: rgba(40, 40, 40);
+    --movie-card-bg-color: rgba(44, 83, 119, 0.2);
+    --movie-card-description-color: rgb(63, 113, 150, 0.8);
 }
 
 html,
@@ -41,9 +43,13 @@ button {
     cursor: pointer;
 }
 
-
 box-icon {
     color: inherit;
     fill: currentColor;
     font-size: inherit;
 }
+
+/*
+    h1, h2, h3, h4, h5, h6 {
+    }
+*/

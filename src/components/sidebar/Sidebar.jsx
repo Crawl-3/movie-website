@@ -23,7 +23,6 @@ function Sidebar() {
     });
     window.removeEventListener("resize", updateSidebar);
 
-
     return (
         <div className={`sidebar ${state.sidebarEnabled ? "sidebar-enabled" : "sidebar-disabled"}`}>
             <nav>
@@ -31,25 +30,33 @@ function Sidebar() {
                 <ul className="links">
                     <li>
                         <NavLink className="link" exact activeClassName="active" to="/">
-                            <span><box-icon type="solid" name="home" /></span>
+                            <span>
+                                <box-icon type="solid" name="home" />
+                            </span>
                             Home
                         </NavLink>
                     </li>
                     <li>
                         <NavLink className="link" exact activeClassName="active" to="/movies">
-                            <span><box-icon type="solid" name="movie-play" /></span>
+                            <span>
+                                <box-icon type="solid" name="movie-play" />
+                            </span>
                             Movies
                         </NavLink>
                     </li>
                     <li>
                         <NavLink className="link" exact activeClassName="active" to="/collection">
-                            <span><box-icon type="solid" name="collection" /></span>
+                            <span>
+                                <box-icon type="solid" name="collection" />
+                            </span>
                             Collection
                         </NavLink>
                     </li>
                     <li>
                         <NavLink className="link" exact activeClassName="active" to="/trend-movies">
-                            <span><box-icon name="trending-up" /></span>
+                            <span>
+                                <box-icon name="trending-up" />
+                            </span>
                             Trend Movies
                         </NavLink>
                     </li>
